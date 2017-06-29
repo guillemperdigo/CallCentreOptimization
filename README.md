@@ -21,4 +21,20 @@ Només un 24% dels Leads generats són traslladats a concessionaris. El marge de
 Disposem de 26.000 registres trucades realitzades entre el 2 de gener i el 30 de maig de 2017. A més de les dades personals dels clients, hi a el timestamp de la creació del lead, la importació a la base de dades del Call Centre i la trucada. També hi ha la campanya originària del lead, l'identificador de l'agent que ha realitzat la trucada, un comentari que deixa l'agent i l'outcome: Traslladat a Concessionari o no ( hi ha fins a 17 tipus de possibles outcomes "negatius")
 
 ## L'objectiu
-Volem trobar un algoritme que faci una predicció de l'outcome. Caldrà identificar quines variables afecten més i quines menys, i en quines hi ha marge per a actuar.
+Volem trobar un algoritme que faci una predicció de l'outcome. Cal identificar quines variables afecten més i quines menys, i en quines hi ha marge per a actuar. En última instància, cal definir una estratègia per millorar la ràtio de trasllat de leads als concessionaris.
+
+## Exploració de les dades
+Un examen exploratori de les dades mostra que les variables "Campanya", "Dia de la setmana de creació del Lead" i "Dia de la setmana de trucada" no mostren relació amb el percentatge d'èxit de les trucades. En canvi, la variable (creada per nosaltres) del "Temps de contacte" sí que hi té relació: com més aviat truquem el potencial comprador després de la creació del Lead, més probabilitats és que el traslladem a un concessionari.
+
+## Prediccions
+Un cop ordenades i netejades les dades, utilitzant el paquet caret hem provat diversos algoritmes. Per tal de poder mesurar millor la seva performance, hem agafat una mostra de dades amb el 50% d'èxit i el 50% de fracàs (en el datasaet global només hi ha un 25% d'èxit). Els diversos models utilitzats i la seva accuracy són aquests:
+- knn: 58%
+- svm: 57.5%
+- random forest: 60.3%
+- neural network: 59.5%
+
+## Conclusions provisionals
+De moment els algoritmes no donen prediccions prou bones com per implementar una estratègia basada en ells. Mentre continuem investigant, l'única estratègia que podem recomanar és trucar tan aviat com sigui possible.
+
+
+
