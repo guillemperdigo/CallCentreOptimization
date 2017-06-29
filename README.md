@@ -15,3 +15,4 @@ Ara que els comercials han perdut poder, les marques necessiten el marketing dig
 Els Leads generats suposen un volum de dades que els concessionaris no poden afrontar sols: les marques, en general, disposen d'un Call Centre encarregat de posar-se en contacte amb el client, certificar el seu interès real en la compra (és la qualificació dels Leads). Els Leads traslladats són els que finalment arriben als concessionaris. Els dos passos finals d'aquest Journey són l'oferta i la compra. Quan es pot trackejar tot aquest camí realitzat per un client, s'assigna una venda als canals digitals.
 
 ## El paper del Call Centre
+Només un 24% dels Leads generats són traslladats a concessionaris. Tot i que hi ha Leads generats 
