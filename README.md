@@ -1,2 +1,0 @@
-# CallCentreOptimization
-Call Centre Optimization
