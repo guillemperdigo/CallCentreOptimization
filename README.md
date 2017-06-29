@@ -14,5 +14,11 @@ Ara que els comercials han perdut poder, les marques necessiten el marketing dig
 
 Els Leads generats suposen un volum de dades que els concessionaris no poden afrontar sols: les marques, en general, disposen d'un Call Centre encarregat de posar-se en contacte amb el client, certificar el seu interès real en la compra (és la qualificació dels Leads). Els Leads traslladats són els que finalment arriben als concessionaris. Els dos passos finals d'aquest Journey són l'oferta i la compra. Quan es pot trackejar tot aquest camí realitzat per un client, s'assigna una venda als canals digitals.
 
-## El paper del Call Centre
-Només un 24% dels Leads generats són traslladats a concessionaris. Tot i que hi ha Leads generats 
+## La importància d'optimitzar Call Centre
+Només un 24% dels Leads generats són traslladats a concessionaris. El marge de millora és enorme, i és l'últim pas abans de la venda on la marca pot influenciar (després d'això se n'encarrega el concessionari, que és una entitat independent).
+
+## Les dades
+Disposem de 26.000 registres trucades realitzades entre el 2 de gener i el 30 de maig de 2017. A més de les dades personals dels clients, hi a el timestamp de la creació del lead, la importació a la base de dades del Call Centre i la trucada. També hi ha la campanya originària del lead, l'identificador de l'agent que ha realitzat la trucada, un comentari que deixa l'agent i l'outcome: Traslladat a Concessionari o no ( hi ha fins a 17 tipus de possibles outcomes "negatius")
+
+## L'objectiu
+Volem trobar un algoritme que faci una predicció de l'outcome. Caldrà identificar quines variables afecten més i quines menys, i en quines hi ha marge per a actuar.
